@@ -2,9 +2,13 @@
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs necesary packages
+
 ### `npm start`
 
-Runs the app 
+Runs the app
 
 ### `npm run build`
 
