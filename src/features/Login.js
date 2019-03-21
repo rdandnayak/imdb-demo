@@ -20,7 +20,7 @@ class Login extends Component {
               e.preventDefault();
               const email = e.target.elements.email.value;
               const password = e.target.elements.password.value;
-              const users = JSON.parse(localStorage.getItem('users'));
+              const users = JSON.parse(localStorage.getItem('users')) || {};
               let list = Object.keys(users);
               if (list.indexOf(email) == -1) {
                 this.setState({ alert: 'User Does not exist' });
